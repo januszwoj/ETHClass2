@@ -399,13 +399,13 @@ bool ETHClass2::beginSPI(eth_phy_type_t type, uint8_t phy_addr, int cs, int irq,
     if (spi_freq_mhz) {
         _spi_freq_mhz = spi_freq_mhz;
     }
-    _phy_type = type;
-    _pin_cs = digitalPinToGPIONumber(cs);
-    _pin_irq = digitalPinToGPIONumber(irq);
-    _pin_rst = digitalPinToGPIONumber(rst);
-    _pin_sck = digitalPinToGPIONumber(sck);
-    _pin_miso = digitalPinToGPIONumber(miso);
-    _pin_mosi = digitalPinToGPIONumber(mosi);
+//    _phy_type = type;
+//    _pin_cs = digitalPinToGPIONumber(cs);
+//    _pin_irq = digitalPinToGPIONumber(irq);
+//    _pin_rst = digitalPinToGPIONumber(rst);
+//    _pin_sck = digitalPinToGPIONumber(sck);
+//    _pin_miso = digitalPinToGPIONumber(miso);
+//    _pin_mosi = digitalPinToGPIONumber(mosi);
 
 #if ETH_SPI_SUPPORTS_CUSTOM
     if (_spi != NULL) {
